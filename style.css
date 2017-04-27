@@ -1,0 +1,93 @@
+/*
+Theme Name: KokoPress
+Author: Emre Can İslambey
+Author URI: https://bitbucket.org/eislambey
+Description: ücretisz sade tema
+Version: 1.0
+*/
+
+@import'reset.css';
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+body{ font:normal 13px 'Ubuntu', Tahoma, Arial; background:#444; }
+
+a { color:#054b91; text-decoration:none; }
+a:hover { color:#c40000; text-decoration:underline; }
+i{font-style:italic}
+b,strong,h1,h2,h3{ font-weight:bold; }
+h1,h2,h3 { margin-bottom:10px; }
+h2 { font-size:19px; }
+h3 { font-size:16px; }
+p { line-height:20px; }
+input,select,button,textarea{ font-family:'Ubuntu', Tahoma, Arial; padding:3px; }
+button { cursor:pointer; }
+
+table { width:100%;}
+table tr td, table tr th{ padding:5px; }
+
+blockquote { font-family: Georgia, serif; font-style: italic; margin:10px 0; padding:10px; color:#fff; background-color:#888; border-radius:4px; }
+blockquote cite{ display:block; }
+#kapsayici { width:800px; min-height:200px; display:block; background:#fff; border-radius:3px; margin:10px auto; padding:10px 10px 0; }
+
+#ust { height:60px; display:block; margin-bottom:10px; }
+.logo { float:left; width:300px; height:60px; display:block; background:url('img/logo.png') no-repeat; }
+.arama { float:right; line-height:60px; }
+.arama input{ width:170px; }
+
+#sol { float:left; width:160px; display:block; background:#eee; border-radius:4px; padding:10px; }
+#sol h2 { font-size:16px; }
+#sol ul li { margin-bottom:15px; }
+#sol ul li a { font-size:13px; background:url('img/arrow_right.png') no-repeat 0 5px; padding-left:13px; }
+
+
+#sag { float:right; width:610px; display:block; min-height:500px; }
+#sag h1 { font-size:25px; }
+.item { margin-bottom:10px; padding:10px; border:1px dotted #ccc; border-radius:5px; }
+.item:nth-child(2n) { margin-right:0; }
+.item p { clear:both; }
+.item p a { font-weight:bold }
+.item p img{ margin:10px 0; border-radius:4px; }
+.etiketler { margin-top:10px }
+.etiketler b{ line-height:20px; margin-right:10px; }
+.etiketler a{ margin-right:7px; margin-bottom:3px; color:#fff; background:#777; padding:3px; border-radius:3px; display:block; float:left; }
+.etiketler a:hover{ background-color:#444; text-decoration:none;}
+
+span.bilgi_kutu, a.devami { display:block; color:#fff; padding:2px 8px; border-radius:5px;  }
+span.bilgi_kutu { float:left; margin-bottom:10px; margin-right:10px; background:#999; }
+span.bilgi_kutu a { color:#fff; }
+span.bilgi_kutu a:hover { text-decoration:none; }
+a.devami { margin-top:10px; float:right; background:#006aa6; }
+a.devami:hover { background:#444; text-decoration:none; }
+
+
+.yorumlar { margin-bottom:10px; background-color:#f8f8f8; }
+.yorum_item { margin-bottom:10px; border-radius:5px; background:#eee; border-left:4px solid #777; border-bottom:1px dotted #bbb; padding:10px; }
+.yorum_item span.yazar { font-weight:bold; margin-bottom:10px; float:left; }
+.yorum_item span.tarih { float:right; }
+.yorum_item p { clear:both; }
+.form_table tr td{ vertical-align:middle;}
+.form_table input{ width:250px; }
+.form_table textarea{ width:500px; height:80px; }
+
+
+.sayfalama{ clear:both; margin-bottom:10px;display:block; }
+.sayfalama a,.sayfalama span{border-radius:3px;float:left;display:block;padding:4px 8px;margin-right:5px;color:#eee}
+.sayfalama a{background:#333}
+.sayfalama span,.sayfalama a:hover{text-decoration:none;background:#006aa6;color:#fff}
+
+
+.footer { clear:both; border-top:1px dotted #aaa; padding:10px; }
+.footer p { text-align:center;}
+
+.info_box, .warning_box, .error_box, .success_box { padding:10px; color:#444; background:#f4f4f4; margin-bottom:10px; }
+.info_box { border-left:4px solid #135596; color:#135596; }
+.warning_box { border-left:4px solid #d8d81c; color:#848409; }
+.error_box { border-left:4px solid #ce0000; color:#ce0000; }
+.success_box { border-left:4px solid #009b05; color:#009b05; }
+
+.red{color:#ff0000;}
+.green{color:#44aa00;}
+.text-center{text-align:center}
+.clear { clear:both; }
+.float-right { float:right; }
+.float-left { float:left; }
